@@ -10,19 +10,23 @@ html,body{
     
 }
 body{
+   
     background-color: black;
+    padding: 30px;
+}
+.elem{
+   padding: 20px;
+    margin-top: 10px;
+    background-color: rgb(93, 120, 108);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
 }
-h1{
-    font-size: 200px;
-    font-weight: 900;
+button{
     
-    background:linear-gradient(to right,lightblue,red,lightgreen);
-    background-clip: text;
-    padding: 20px 50px;
-    color: transparent;
-    border-radius: 15px;
-    -webkit-text-stroke: 2px blue;
+    background-color: rgb(129, 110, 215);
+    color: rgb(219, 216, 211);
+    padding: 10px 20px;
+    
 }
