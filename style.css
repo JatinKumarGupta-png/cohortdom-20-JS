@@ -2,48 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    color: white;
 }
 html,body{
     height: 100%;
     width: 100%;
+    
 }
-main{
-    height: 100%;
-    width: 100%;
-    background-color: #171515;
+body{
+    background-color: black;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}.card{
-    /* height: 300px; */
-    width: 220px;
-    background-color: rgb(229, 211, 215);
-    border-radius: 20px;
-    text-align: center;
-    padding: 20px;
+    justify-content: center;
 }
-.card img{
-    height:150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-.card h3{
-    font-size: 28px;
-    font-weight: 800;
+h1{
+    font-size: 200px;
+    font-weight: 900;
     
-    white-space: nowrap;
-}
-.card h4{
-    font-size: 24px;
-    font-weight: 600;
-    color: crimson;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.card p{
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 10px;
+    background:linear-gradient(to right,lightblue,red,lightgreen);
+    background-clip: text;
+    padding: 20px 50px;
+    color: transparent;
+    border-radius: 15px;
+    -webkit-text-stroke: 2px blue;
 }
